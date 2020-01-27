@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>La sélection Au Kazoo</title>
+</head>
+
+<div id="page-wrapper">
+  
+  <header id="header">
+    
+    <div class="logo">
+      <img id="header-img" src="https://www.dropbox.com/s/k7y402thzqdx9h1/au_kazoo.png?dl=1" alt="original kazoo logo">
+    </div>
+    
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Fonctionnalités</a></li>
+        <li><a class="nav-link" href="#how-it-works">Comment ça marche</a></li>
+        <li><a class="nav-link" href="#pricing">Notre sélection</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>Des chef d'œuvres artisanaux faits main</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email" type="email" placeholder="Enter your email adress" required>
+      <input id="submit" type="submit">
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Matériaux Premium</h2>
+          <p>
+            Nos kazoos sont très résistants grâce à des matériaux et constructions fiables!
+          </p>
+        </div>
+      </div>
+      
+      <div class="grid">
+        <div class="icon"><i class="fa fa 3x fa-truck" style="font-size:50px"></i></div>
+        <div class="desc">
+          <h2>Transport rapide</h2>
+          <p>
+            Nous nous assurons que vous receviez votre kazoo dès que nous avons fini de le fabriquer. Nous proposons aussi des renvois gratuit si vous n'êtes pas satisfait.
+          </p>
+        </div>
+      </div>
+
+     <div class="grid">
+       <div class="icon">
+         <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+       </div>
+       <div class="desc">
+         <h2>Contrôle de qualité</h2>
+         <p>
+           Pour chaque achat que vous faîtes, nous allons nous assurer qu'il n'y a pas de dégâts ou de défauts et nous allons vérifier et évaluer le ton de votre instrument.
+         </p>
+       </div>
+     </div> 
+    </section>
+
+    <section id="how-it-works">
+      <iframe id="video" height="315" src="https://www.youtube.com/embed/E3z6rROsZig?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe id="video" height="315" src="https://www.youtube.com/embed/vtnGNqWayXw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <iframe id="video" height="315" src="https://www.youtube.com/embed/vmO6-nZQvpE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+
+      <div class="product" id="metal">
+        <div class="level">Kazoo Grover en métal</div>
+        <a href="https://www.amazon.com/Trophy-Musical-Instruments-701-Grover/dp/B00067G66Y/ref=as_li_ss_tl?&imprToken=YlfSsFWmzEE3SsdIdTbVqw&slotNum=1&imprToken=c.4R32zy3yg9lTxRtirfuQ&slotNum=3&linkCode=sl1&tag=cmuse4425-20&linkId=db4b96eb3a9190fde28c05559d828a6b&language=en_US"><img width="250px" src="https://www.dropbox.com/s/njlqyca0oga8v0z/kazoo1.png?dl=1"></a>
+        <h2>$6</h2>
+        <ol>
+          <li>Prix bas</li>
+          <li>Corps en métal robuste</li>
+          <li>Très bon son</li>
+          <li>Design simple</li>
+        </ol>
+        <button class="btn">Sélectionner<button>
+      </div>
+
+     <div class="product" id="aluminium">
+       <div class="level">Kazoo Blue en aluminium</div>
+       <a href="https://www.amazon.com/Blue-Kazoo-Ultralight-Backpacking-Carabiner/dp/B01MRKN2H8/ref=as_li_ss_il?creativeASIN=B01MRKN2H8&imprToken=GCIJJUNxw30aKy3TOdbC-g&slotNum=4&&imprToken=YlfSsFWmzEE3SsdIdTbVqw&slotNum=6&imprToken=c.4R32zy3yg9lTxRtirfuQ&slotNum=13&linkCode=w61&tag=cmuse4425-20&linkId=943beeebf9d68d299eabbeb7d6d0a520&language=en_US"><img width="250px" src="https://www.dropbox.com/s/s0xlkpfdsk0kus1/kazoo2.png?dl=1"></a>
+       <h2>$12</h2>
+       <ol>
+         <li>Poids léger</li>
+         <li>Résistant à la rouille</li>
+         <li>Design élégant</li>
+         <li>Nettoyage façile</li>
+       </ol>
+       <button class="btn">Sélectionner</button>
+     </div>
+
+     <div class="product" id="pack">
+       <div class="level">Pack de 50 kazoos Hohner</div>
+       <a href="https://www.amazon.fr/dp/B0002F4TJ6/ref=as_li_ss_tl?=&slotNum=5&language=en_US&linkCode=gs2&linkId=50d2620442339d12b037d4a529770edd&imprToken=YlfSsFWmzEE3SsdIdTbVqw&tag=cmusefrance-21"><img width="250px" src="https://www.dropbox.com/s/mzc560dmlth5udt/kazoo3.png?dl=1"></a>
+       <h2>$89</h2>
+       <ol>
+         <li>Haute qualité</li>
+         <li>Pack de 50</li>
+         <li>Très bien pour tout le monde</li>
+         <li>Nom réputé</li>
+         <li>Matériau durable</li>
+       </ol>
+       <button class="btn">Sélectionner</button>
+     </div>
+    </section>
+        
+    <footer>
+      <ul>
+        <li><a href="#">Politique de confidentialité</a></li>
+        <li><a href="#">Conditions générales</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 20XX, Au Kazoo</span>
+    </footer>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
